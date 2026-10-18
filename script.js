@@ -9,8 +9,7 @@ const navigation = [
     ["Hiscores", "hiscores.html", "hiscores"],
     ["Gallery", "gallery.html", "gallery"],
     ["Roles", "roles.html", "roles"],
-    ["Staff", "staff.html", "staff"],
-    ["Creators", "content_creators.html", "creators"]
+    ["Staff", "staff.html", "staff"]
 ];
 
 const pageDetails = {
