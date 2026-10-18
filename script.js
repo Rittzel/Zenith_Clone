@@ -20,7 +20,7 @@ const pageDetails = {
     recruitment: ["The roster board", "Recruitment", "Recruitment hiscores are temporarily unavailable. Join the Discord for the latest information."],
     roles: ["Every achievement has a place", "Community roles", "From your first month in the clan to your biggest in-game milestones, there's a role to celebrate it."],
     staff: ["Here to help you find your way", "Meet the team", "The people behind the scenes, keeping the community welcoming and the adventures rolling."],
-    creators: ["Made by the community", "Our content creators", "Get to know the players sharing their Zenith adventures with the world."]
+    // creators: ["Made by the community", "Our content creators", "Get to know the players sharing their Zenith adventures with the world."]
 };
 
 function escapeHtml(value) {
