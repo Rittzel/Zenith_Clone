@@ -48,11 +48,7 @@ window.ZENITH = {
         ["Newcomer", "New members", "newmember.png"],
         ["Alts", "Alternate accounts", "alts.png"]
     ],
-    creators: [
-        { name: "Xander OSRS", image: "gallery/Achievements/XanderOSRS_Max.png", description: "The luckiest player ever.", twitch: null, youtube: null },
-        { name: "CCTV", image: "gallery/Achievements/CCTV_Music_cape.png", description: "The grindiest player ever.", twitch: null, youtube: null },
-        { name: "Rittzel", image: "creators/Rittzel.png", description: "The unluckiest player ever.", twitch: null, youtube: null }
-    ],
+
     gallery: [
         { category: "Achievements", title: "Maxed account", caption: "Maxed account · Xander OSRS", image: "gallery/Achievements/XanderOSRS_Max.png" },
         { category: "Achievements", title: "First pet", caption: "First pet: Beef! · 1,235 KC · ItIsFox", image: "gallery/Achievements/ItIsFox_firstpet.png" },
