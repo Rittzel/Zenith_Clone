@@ -284,7 +284,7 @@ img {
 }
 
 .hero--home::before {
-    background-image: url("eventscreenshots/Theatre_of_Blood.webp");
+    background-image: url("backgrounds/Lumbridge.webp");
     background-position: center 42%;
     background-size: cover;
     filter: saturate(0.64);
