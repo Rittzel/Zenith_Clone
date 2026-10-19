@@ -21,7 +21,9 @@ window.ZENITH = {
         { role: "Admins", people: "Goliathus159", icon: "staff.png" },
         { role: "Moderators", people: "Rittzel · Lvl99Milfz", icon: "mod.png" },
         { role: "Recruiters", people: "DJChallyChal", icon: "recruiter.png" },
-        { role: "Website admin", people: "Rittzel", icon: "webadmin.png" }
+        { role: "Website contributors", people: "EarthShakr", icon: "webadmin.png" },
+        { role: "Website admin & creator", people: "Rittzel", icon: "webadmin.png" }
+              
     ],
     roles: [
         ["Owner", "Server owner", "owner.png"],
