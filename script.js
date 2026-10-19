@@ -43,7 +43,7 @@ function renderHeader() {
         <header class="site-header">
             <div class="nav-wrap">
                 <a class="brand" href="index.html" aria-label="Zenith home">
-                    <span class="brand-mark" aria-hidden="true">Z</span>
+                    <img class="brand-mark" src="favicon/zenithlogo.png" alt="" aria-hidden="true">
                     <span class="brand-name">ZENITH<small>OLD SCHOOL · COMMUNITY</small></span>
                 </a>
                 <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation">
@@ -62,7 +62,7 @@ function renderFooter() {
         <footer class="site-footer">
             <div class="footer-inner">
                 <a class="brand brand--footer" href="index.html">
-                    <span class="brand-mark" aria-hidden="true">Z</span>
+                    <img class="brand-mark" src="favicon/zenithlogo.png" alt="" aria-hidden="true">
                     <span class="brand-name">ZENITH<small>ADVENTURE IS BETTER TOGETHER</small></span>
                 </a>
                 <p>Made for the community. Not affiliated with Jagex.</p>
