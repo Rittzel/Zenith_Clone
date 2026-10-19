@@ -13,6 +13,7 @@ window.ZENITH = {
         { name: "Nutbusser69", level: 2376, role: "Maxed", icon: "maxmembers.png" },
         { name: "D9R", level: 2376, role: "Maxed", icon: "maxmembers.png" },
         { name: "YeOldGregg", level: 2376, role: "Maxed", icon: "maxmembers.png" },
+        { name: "Just Kitten", level: 2376, role: "Maxed", icon: "maxmembers.png" },
         { name: "Xander OSRS", level: 2376, role: "Deputy Owner", icon: "deputyowner.png" }
     ],
     staff: [
@@ -56,6 +57,8 @@ window.ZENITH = {
         { name: "Rittzel", image: "creators/Rittzel.png", description: "The unluckiest player ever.", twitch: "https://www.twitch.tv/envenomedgaming", youtube: "https://www.youtube.com/@envenomedgaming5520" }
     ],
     gallery: [
+        { category: "Achievements", title: "First 99", caption: "99 Firemaking · ItIsFox", image: "gallery/Achievements/ItIsFox_First99.png" },
+        { category: "Achievements", title: "Maxed account", caption: "Maxed account · Just Kitten", image: "gallery/Achievements/Just_Kitten_Max.png" },
         { category: "Achievements", title: "Maxed account", caption: "Maxed account · Xander OSRS", image: "gallery/Achievements/XanderOSRS_Max.png" },
         { category: "Achievements", title: "First pet", caption: "First pet: Beef! · 1,235 KC · ItIsFox", image: "gallery/Achievements/ItIsFox_firstpet.png" },
         { category: "Achievements", title: "Hard Combat Achievements", caption: "Hard tier Combat Achievements · DJ Chally Chal", image: "gallery/Achievements/DJ_Chally_Chal_HARDCAS.png" },
