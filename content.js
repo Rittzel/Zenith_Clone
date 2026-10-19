@@ -49,9 +49,9 @@ window.ZENITH = {
         ["Alts", "Alternate accounts", "alts.png"]
     ],
     creators: [
-        { name: "Xander OSRS", image: "gallery/Achievements/XanderOSRS_Max.png", description: "The luckiest player ever.", twitch: null, youtube: null },
+        { name: "Xander OSRS", image: "gallery/Achievements/XanderOSRS_Max.png", description: "The luckiest player ever.", twitch: "https://www.twitch.tv/xanderosrs", youtube: "https://www.youtube.com/@XanderOSRS" },
         { name: "CCTV", image: "gallery/Achievements/CCTV_Music_cape.png", description: "The grindiest player ever.", twitch: null, youtube: null },
-        { name: "Rittzel", image: "creators/Rittzel.png", description: "The unluckiest player ever.", twitch: "https://www.twitch.tv/xanderosrs", youtube: "https://www.youtube.com/@XanderOSRS" }
+        { name: "Rittzel", image: "creators/Rittzel.png", description: "The unluckiest player ever.", twitch: null, youtube: null }
     ],
     gallery: [
         { category: "Achievements", title: "Maxed account", caption: "Maxed account · Xander OSRS", image: "gallery/Achievements/XanderOSRS_Max.png" },
