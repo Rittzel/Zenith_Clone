@@ -194,7 +194,7 @@ function renderCreators() {
     return `<main id="main-content">${pageHeading(...pageDetails.creators)}
         <section class="section-wrap creators-section"><div class="creator-grid">${data.creators.map((creator) => `
             <article class="creator-card"><div class="creator-image"><img src="${creator.image}" alt="${escapeHtml(creator.name)}" loading="lazy"><span class="creator-spark" aria-hidden="true">✦</span></div><div class="creator-content"><p class="eyebrow">Zenith creator</p><h2>${escapeHtml(creator.name)}</h2><p>${escapeHtml(creator.description)}</p><div class="creator-links">${creator.twitch ? `<a href="${creator.twitch}" target="_blank" rel="noopener noreferrer"><img src="icons/Twitch.png" alt="">Twitch ↗</a>` : '<span class="link-unavailable">Twitch link not listed</span>'}${creator.youtube ? `<a href="${creator.youtube}" target="_blank" rel="noopener noreferrer"><img src="icons/youtubeicon.png" alt="">YouTube ↗</a>` : '<span class="link-unavailable">YouTube link not listed</span>'}</div></div></article>`).join("")}</div>
-            <p class="creator-note">Creator links weren't provided yet. Join the Discord to discover more clan channels and creators.</p>
+            <p class="creator-note">Join the Discord to discover more clan channels and creators.</p>
         </section></main>`;
 }
 
