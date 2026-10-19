@@ -9,7 +9,8 @@ const navigation = [
     ["Hiscores", "hiscores.html", "hiscores"],
     ["Gallery", "gallery.html", "gallery"],
     ["Roles", "roles.html", "roles"],
-    ["Staff", "staff.html", "staff"]
+    ["Staff", "staff.html", "staff"],
+    ["Creators", "creators.html", "creators"]
 ];
 
 const pageDetails = {
@@ -20,7 +21,7 @@ const pageDetails = {
     recruitment: ["The roster board", "Recruitment", "Recruitment hiscores are temporarily unavailable. Join the Discord for the latest information."],
     roles: ["Every achievement has a place", "Community roles", "From your first month in the clan to your biggest in-game milestones, there's a role to celebrate it."],
     staff: ["Here to help you find your way", "Meet the team", "The people behind the scenes, keeping the community welcoming and the adventures rolling."],
-    // creators: ["Made by the community", "Our content creators", "Get to know the players sharing their Zenith adventures with the world."]
+    creators: ["Made by the community", "Our content creators", "Get to know the players sharing their Zenith adventures with the world."]
 };
 
 function escapeHtml(value) {
@@ -189,13 +190,13 @@ function renderStaff() {
     </main>`;
 }
 
-// function renderCreators() {
-//     return `<main id="main-content">${pageHeading(...pageDetails.creators)}
-//         <section class="section-wrap creators-section"><div class="creator-grid">${data.creators.map((creator) => `
-//             <article class="creator-card"><div class="creator-image"><img src="${creator.image}" alt="${escapeHtml(creator.name)}" loading="lazy"><span class="creator-spark" aria-hidden="true">✦</span></div><div class="creator-content"><p class="eyebrow">Zenith creator</p><h2>${escapeHtml(creator.name)}</h2><p>${escapeHtml(creator.description)}</p><div class="creator-links">${creator.twitch ? `<a href="${creator.twitch}" target="_blank" rel="noopener noreferrer"><img src="icons/Twitch.png" alt="">Twitch ↗</a>` : '<span class="link-unavailable">Twitch link not listed</span>'}${creator.youtube ? `<a href="${creator.youtube}" target="_blank" rel="noopener noreferrer"><img src="icons/youtubeicon.png" alt="">YouTube ↗</a>` : '<span class="link-unavailable">YouTube link not listed</span>'}</div></div></article>`).join("")}</div>
-//             <p class="creator-note">Creator links weren't provided yet. Join the Discord to discover more clan channels and creators.</p>
-//         </section></main>`;
-// }
+function renderCreators() {
+    return `<main id="main-content">${pageHeading(...pageDetails.creators)}
+        <section class="section-wrap creators-section"><div class="creator-grid">${data.creators.map((creator) => `
+            <article class="creator-card"><div class="creator-image"><img src="${creator.image}" alt="${escapeHtml(creator.name)}" loading="lazy"><span class="creator-spark" aria-hidden="true">✦</span></div><div class="creator-content"><p class="eyebrow">Zenith creator</p><h2>${escapeHtml(creator.name)}</h2><p>${escapeHtml(creator.description)}</p><div class="creator-links">${creator.twitch ? `<a href="${creator.twitch}" target="_blank" rel="noopener noreferrer"><img src="icons/Twitch.png" alt="">Twitch ↗</a>` : '<span class="link-unavailable">Twitch link not listed</span>'}${creator.youtube ? `<a href="${creator.youtube}" target="_blank" rel="noopener noreferrer"><img src="icons/youtubeicon.png" alt="">YouTube ↗</a>` : '<span class="link-unavailable">YouTube link not listed</span>'}</div></div></article>`).join("")}</div>
+            <p class="creator-note">Creator links weren't provided yet. Join the Discord to discover more clan channels and creators.</p>
+        </section></main>`;
+}
 
 function renderRecruitment() {
     return `<main id="main-content">${pageHeading(...pageDetails.recruitment)}
@@ -211,7 +212,7 @@ const renderers = {
     recruitment: renderRecruitment,
     roles: renderRoles,
     staff: renderStaff,
-    // creators: renderCreators
+    creators: renderCreators
 };
 
 function setTheme(theme) {
