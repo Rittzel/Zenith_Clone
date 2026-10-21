@@ -3,7 +3,7 @@
     src: url("fonts/runescape.woff2") format("woff2");
     font-display: swap;
 }
-
+/* Home page background is in .hero--home::before */
 :root {
     color-scheme: dark;
     --page: #10120f;
