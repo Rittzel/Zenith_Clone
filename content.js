@@ -27,7 +27,7 @@ window.ZENITH = {
       description: "A trip into the Wilderness for some bossing.",
     },
     {
-      title: "Skill tab showcase",
+      title: "Skilling events",
       image: "eventscreenshots/Skills_tab.png",
       description: "A look at a member's skills.",
     },
