@@ -279,7 +279,7 @@ img {
 }
 
 .hero--home::before {
-    background-image: url("backgrounds/Lumbridge.webp");
+    background-image: url("https://oldschool.runescape.wiki/images/thumb/The_Fractured_Archive_-_First_Look_%281%29.jpg/1000px-The_Fractured_Archive_-_First_Look_%281%29.jpg?7047e");
     background-position: center 42%;
     background-size: cover;
     filter: saturate(0.64);
