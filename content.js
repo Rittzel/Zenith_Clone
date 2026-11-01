@@ -126,6 +126,12 @@ window.ZENITH = {
     // Achievements
     {
       category: "Achievements",
+      title: "99 Woodcutting",
+      caption: "99 Woodcutting · ExtendedTask",
+      image: "gallery/Achievements/ExtendedTask_99wcing.png",
+    },
+    {
+      category: "Achievements",
       title: "First 99",
       caption: "99 Firemaking · ItIsFox",
       image: "gallery/Achievements/ItIsFox_First99.png",
