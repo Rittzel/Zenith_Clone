@@ -181,6 +181,12 @@ window.ZENITH = {
     // Loot
     {
       category: "Loot",
+      title: "Tempoross",
+      caption: "Reward pool · 92 searches · Razladin",
+      image: "gallery/loot/razladin_tempoross.png",
+    },
+    {
+      category: "Loot",
       title: "Draconic visage",
       caption: "Draconic visage · 1,250 KC · Frost Dragons · Da Deer Say",
       image: "gallery/loot/DaDeerSay_Draconic_Visage.png",
